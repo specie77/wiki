@@ -51,7 +51,7 @@ Install using the following command:
 ```
 $ pip install flexget
 ```
-NOTE: You will receive an error that FlexGet requires feedparser v.5.2.1, and that 6.0.0b1 is incompatible. Ignore this message as its quite the opposite since some lib2to3 requirements are either non-functional or missing in the Synology releases of Python. Without upgrading to the beta version of feedparser, you will get Syntax errors, and FlexGet will not run. You must, however install feedparser AFTER installing FlexGet, as the FlexGet installation will replace the feedparser installation.
+NOTE: You will receive an error that FlexGet requires feedparser v.5.2.1, and that 6.0.0b1 is incompatible. Ignore this message as its quite the opposite since some lib2to3 requirements are either non-functional or missing in the Synology releases of Python. Without upgrading to the beta version of feedparser, you will get Syntax errors, and FlexGet will not run. You must, however install feedparser AFTER installing FlexGet, as the FlexGet installation will replace the feedparser installation.  (As of flexget 3.1.82, a newer version of feedparser is included in the install package, you may not see this error anymore) 
 
 
 ## Verify installation
